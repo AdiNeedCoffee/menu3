@@ -1,0 +1,87 @@
+        body {  
+            background-color: #0e0504;  
+            margin: 0;  
+            font-family: Arial, sans-serif;  
+        }  
+
+        .container {  
+            max-width: 1200px;  
+            margin: auto;  
+            padding: 20px;  
+            background: #fffdf0;  
+            border-radius: 10px;  
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+        }  
+
+        h1,  
+        h2 {  
+            text-align: center;  
+        }  
+
+        h1 {  
+            font-size: 2.5rem;  
+            margin: 20px 0;  
+        }  
+
+        h2 {  
+            font-size: 2rem;  
+            margin: 20px 0;  
+        }  
+
+        .grid {  
+            display: grid;  
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
+            gap: 20px;  
+        }  
+
+        .card {  
+            background: #815b5b;  
+            padding: 15px;  
+            border-radius: 10px;  
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+            text-align: center;  
+        }  
+
+        .coffee-image {  
+            height: 200px;  
+            object-fit: cover;  
+            border-radius: 10px;  
+            width: 100%;  
+        }  
+
+        .button {  
+            background-color: #0e0504;  
+            color: white;  
+            padding: 10px;  
+            border: none;  
+            border-radius: 5px;  
+            display: block;  
+            margin-top: 10px;  
+            text-decoration: none;  
+            text-align: center;  
+        }  
+
+        .button:hover {  
+            background-color: #854836;  
+        }  
+
+        .text-center {  
+            text-align: center;  
+        }  
+
+        p {  
+            margin: 10px 0;  
+        }  
+
+       
+        .center-align {  
+            display: flex;  
+            justify-content: center; 
+        }  
+
+        .payment-options {  
+            display: flex; 
+            justify-content: center; 
+            align-items: start; 
+            gap: 20px;  
+        }  
